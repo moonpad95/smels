@@ -1,0 +1,9 @@
+.tarjetas{
+    display: flex;
+}
+
+@media (max-width: 768px) {
+	.tarjetas {
+		display: none;
+	}
+}
