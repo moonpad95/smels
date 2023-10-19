@@ -67,7 +67,7 @@ function Presentation() {
         }}
       >
         <Container>
-        <Grid container item xs={9} lg={5} md={6} sm={9} justifyContent="center" mx="auto">
+        <Grid container item xs={9} lg={4} md={5} sm={9} justifyContent="center" mx="auto">
           <Card
             style={customStyles}
             zIndex={5}
@@ -81,7 +81,7 @@ function Presentation() {
               justifyContent: "center"  // Centra horizontalmente
             }}
           >
-            <img src={imagelogo} alt="Servicio Médico Empresarial L.S." width="100%" />
+            <img src={imagelogo} alt="Servicio Médico Empresarial L.S." width="90%" />
           </Card>
         </Grid>
         </Container>{" "}

@@ -11,7 +11,7 @@ function Formulario() {
         </MKTypography>
       <form
       target="_self"
-      action="https://formsubmit.co/luna-gaytan@hotmail.com"
+      action="https://formsubmit.co/israellermass@gmail.com"
       method="POST"
     >
       <div style={{ display: "flex", flexDirection: "column" }}>

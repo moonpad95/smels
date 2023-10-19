@@ -42,7 +42,7 @@ import Icon from "@mui/material/Icon";
 // @mui icons
 // import GitHubIcon from "@mui/icons-material/GitHub";
 
-import { Facebook } from "@mui/icons-material";
+import { Facebook, WhatsApp } from "@mui/icons-material";
 
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
@@ -282,22 +282,14 @@ const routes = [
     hidden: true, // Esta ruta se ocultará en el navbar
   },
   {
-    name: "",
-    // icon: <Icon>book_online</Icon>,
-    // collapse: [
-    //   {      
-    //   name: "Red Social Facebook",
+    icon: <WhatsApp />,
+    href: "https://wa.me/6181128866",
+  },
+  {
       icon: <Facebook />,
       href: "https://www.facebook.com/profile.php?id=100064278240012&mibextid=ZbWKwL",
-    // },
-    // {      
-    //   name: "Red Social Twitter",
-    //   icon: <Facebook />,
-    //   href: "https://www.facebook.com/profile.php?id=100064278240012&mibextid=ZbWKwL",
-    // }
-
-    // ]
   }
+
 ];
 
 

@@ -39,6 +39,7 @@ function Newsletter() {
       sx={{
         backgroundImage: `url(${bgImage})`,
         backgroundSize: "cover",
+        borderRadius: 5,
         backgroundPosition: "top",
         backgroundAttachment: "fixed", // Fondo estático
         display: "grid",
@@ -48,7 +49,7 @@ function Newsletter() {
       <Container>
       <Grid >
   <Grid>
-    <Card variant="outlined">
+    <Card variant="outlined" >
       <Grid container spacing={2} className="side-by-side-boxes" position="relative">
         <Grid item xs={12} md={8}>
           <MKBox>

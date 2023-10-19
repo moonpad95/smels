@@ -66,12 +66,11 @@ function Featuring() {
                   <MKBox component="img" src={vodafone} alt="vodafone" width="100%" opacity={0.7} />
                 </Grid>
               </Grid> */}{" "}
-        <MKBox mt={7} >
+        <MKBox mt={7} sx={{borderRadius: 5}}>
           <MKBox
             variant="gradient"
             bgColor="info"
             position="relative"
-            borderRadius="xl"
             sx={{
               overflow: "hidden",
             }}
@@ -80,7 +79,9 @@ function Featuring() {
               component="img"
               src={bgImage}
               alt="pattern-lines"
-              sx={{        backgroundAttachment: "fixed", // Fondo estático
+              sx={{ 
+                borderRadius: 5,
+                backgroundAttachment: "fixed", // Fondo estático
             }}
               position="absolute"
               top={0}
